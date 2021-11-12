@@ -73,3 +73,17 @@ git checkout "branch_name"
 
 git merge "branch_name"
 </pre>
+
+<h3>Bonus Commands For Windows </h3>
+
+1. Create a directory
+
+<pre>mkdir YOUR_DIR_NAME</pre>
+
+2. List of folder and files in a directory.
+
+<pre>ls YOUR_DIR_NAME</pre>
+
+3. Create an empty file.
+
+<pre>echo YOUR_FILE_NAME</pre>
