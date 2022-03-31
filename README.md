@@ -61,17 +61,28 @@ git remote set-url origin "git_remote_repository_url"
 <h3>Git Branch Commands</h3>
 
 <pre>
-git branch
 
-git branch -b "new_branch_name"
+// List of all branches.
+git branch -a
 
+// Create a new branch and switch to that branch
+git checkout -b "new_branch_name"
+
+//Rename current branch.
 git branch -m "new_renamed_branch_name"
 
+// delete a branch.
 git branch -d "deleted_branch_name"
 
+//switch to a branch.
 git checkout "branch_name"
 
+// merge a branch.
 git merge "branch_name"
+
+// Check brach logs
+
+git log --oneline
 </pre>
 
 <h3>Bonus Commands For Windows </h3>
