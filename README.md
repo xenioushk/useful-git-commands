@@ -51,8 +51,10 @@ git clone "git_remote_repository_url"
 
 git reset "index.html"
 
+//check current origin
 git remote -v
 
+//Set a new origin.
 git remote set-url origin "git_remote_repository_url"
 </pre>
 
