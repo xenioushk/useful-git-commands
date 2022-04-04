@@ -87,6 +87,14 @@ git merge "branch_name"
 git log --oneline
 </pre>
 
+
+<h3>Fix fatal: refusing to merge unrelated histories issue </h3>
+
+1. Run the following command. (Check origin name, for mine it's the main)
+2. <pre>git pull origin main --allow-unrelated-histories</pre>
+3. After running this code a popup window will appear. Press 'wq' from keyboard.
+4. It's done. Now you can push your code to the remote repository.
+
 <h3>Bonus Commands For Windows </h3>
 
 1. Create a directory
