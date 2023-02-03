@@ -103,7 +103,11 @@ git log --oneline
 
 2. Create an empty file.
 
-<pre>touch YOUR_FILE_NAME</pre>x
+<pre>touch YOUR_FILE_NAME</pre>
+
+3. Read A File.
+
+<pre>cat YOUR_FILE_NAME</pre>
 
 <h3>Bonus Commands For Windows </h3>
 
