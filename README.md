@@ -8,6 +8,13 @@
 git --version
 </pre>
 
+<h3>Last 3 Git Logs</h3>
+
+<pre>git log -3</pre>
+
+<h3>Git Logs in Graphical Mode</h3>
+
+<pre>git log --graph</pre>
 
 
 <h3>Setup Git User Name and Email:</h3>
