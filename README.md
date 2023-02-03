@@ -95,6 +95,12 @@ git log --oneline
 3. After running this code a popup window will appear. Press 'wq' from keyboard.
 4. It's done. Now you can push your code to the remote repository.
 
+<h3>Bonus Commands For Mac </h3>
+
+1. Create a directory
+
+<pre>mkdir YOUR_DIR_NAME</pre>
+
 <h3>Bonus Commands For Windows </h3>
 
 1. Create a directory
