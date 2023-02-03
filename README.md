@@ -97,9 +97,13 @@ git log --oneline
 
 <h3>Bonus Commands For Mac </h3>
 
-1. Create a directory
+1. Create a directory.
 
-<pre>mkdir YOUR_DIR_NAME</pre>
+<pre>echo YOUR_FILE_NAME</pre>
+
+2. Create an empty file.
+
+<pre>touch YOUR_FILE_NAME</pre>x
 
 <h3>Bonus Commands For Windows </h3>
 
