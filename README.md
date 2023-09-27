@@ -48,7 +48,7 @@ git commit -m "your_custom_commit_message_in_here"
 
 git commit -am "your custom_commit_message_in_here"
 
-git add remote origin "git_remote_repository_url"
+git remote add origin "git_remote_repository_url"
 
 git push origin main 
 
