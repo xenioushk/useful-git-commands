@@ -63,6 +63,12 @@ git remote -v
 
 //Set a new origin.
 git remote set-url origin "git_remote_repository_url"
+
+// Rename a remote origin.
+// the following command will rename the origin to upstream
+
+git rename remote origin upstream  
+  
 </pre>
 
 
