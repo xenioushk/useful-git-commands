@@ -1,4 +1,4 @@
-# Useful & Frequently Userd git Commands
+# Frequently Used git Commands
 
 <h3>Git Setup</h3>
 
