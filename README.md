@@ -50,8 +50,14 @@ git commit -am "your custom_commit_message_in_here"
 
 git remote add origin "git_remote_repository_url"
 
-git push origin main 
+// set upstream. (rename the remote from origin to upstream)
 
+git remote rename origin upstream
+  
+// Using -u, you can set the upstream branch for the current (main) branch
+git push -u origin main 
+
+// pull any changes from remote main branch
 git pull origin main
 
 git clone "git_remote_repository_url"
@@ -89,8 +95,7 @@ git checkout "branch_name"
 // merge a branch.
 git merge "branch_name"
 
-// Check brach logs
-
+// Check branch logs
 git log --oneline
 </pre>
 
