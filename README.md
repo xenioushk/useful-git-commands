@@ -1,43 +1,47 @@
 # Useful & Frequently Userd git Commands
 
-<h3>Git Setup</h3>
+This documentation provides a quick setup process of Git and a few useful commands.
 
-<p>Download git application from https://git-scm.com and install it on your computer. Run the following command in your computer command prompt application.</p>
+## Git Setup
 
-<pre>
+- Download git application from https://git-scm.com
+- install it on your computer.
+- Open the terminal(Mac) or Poweshell (Windows).
+- Once done, run the following command to check the git version.
+
+```bash
 git --version
-</pre>
+```
 
-<h3>Last 3 Git Logs</h3>
+## Last 3 Git Logs
 
-<pre>git log -3</pre>
+```bash
+git log -3
+```
 
-<h3>Git Logs in Graphical Mode</h3>
+## Git Logs in Graphical Mode
 
-<pre>git log --graph</pre>
+```bash
+git log --graph
+```
 
+## Setup Git User Name and Email
 
-<h3>Setup Git User Name and Email:</h3>
-
-<pre>
+```bash
 git config --global user.name "Your Name"
-
 git config --global user.email "Your Email"
-</pre>
+```
 
-<p>Check the user information</p>
+### Validate user information
 
-<pre>
+```bash
 git config --global user.name
-
 git config --global user.email
-</pre>
-
-
+```
 
 <h3>Git Push & Pull Commands</h3>
 
-<pre>
+```bash
 git init
 
 git status
@@ -50,32 +54,30 @@ git commit -am "your custom_commit_message_in_here"
 
 git remote add origin "git_remote_repository_url"
 
-// set upstream. (rename the remote from origin to upstream)
+//set upstream. (rename the remote from origin to upstream)
 
 git remote rename origin upstream
-  
-// Using -u, you can set the upstream branch for the current (main) branch
-git push -u origin main 
 
-// pull any changes from remote main branch
+// Using -u, you can set the upstream branch for the current branch. e.g main
+git push -u origin main
+
+// Pull any changes from remote main branch
 git pull origin main
 
 git clone "git_remote_repository_url"
 
 git reset "index.html"
 
-//check current origin
+// Check current origin
 git remote -v
 
 //Set a new origin.
 git remote set-url origin "git_remote_repository_url"
-</pre>
+```
 
+## Git Branch Commands
 
-
-<h3>Git Branch Commands</h3>
-
-<pre>
+```bash
 
 // List of all branches.
 git branch -a
@@ -97,40 +99,55 @@ git merge "branch_name"
 
 // Check branch logs
 git log --oneline
-</pre>
+```
 
+## Fix fatal: refusing to merge unrelated histories issue
 
-<h3>Fix fatal: refusing to merge unrelated histories issue </h3>
+- Run the following command. (Check origin name, for mine it's the main)
 
-1. Run the following command. (Check origin name, for mine it's the main)
-2. <pre>git pull origin main --allow-unrelated-histories</pre>
-3. After running this code a popup window will appear. Press 'wq' from keyboard.
-4. It's done. Now you can push your code to the remote repository.
+  ```bash
+  git pull origin main --allow-unrelated-histories
+  ```
+
+- After running this code a popup window will appear. Press 'wq' from keyboard.
+- It's done. Now you can push your code to the remote repository.
 
 <h3>Bonus Commands For Mac </h3>
 
-1. Create a directory.
+1. Create a new directory
 
-<pre>echo YOUR_FILE_NAME</pre>
+```bash
+mkdir YOUR_DIR_NAME
+```
 
 2. Create an empty file.
 
-<pre>touch YOUR_FILE_NAME</pre>
+```bash
+touch YOUR_FILE_NAME
+```
 
 3. Read A File.
 
-<pre>cat YOUR_FILE_NAME</pre>
+```bash
+cat YOUR_FILE_NAME
+```
 
-<h3>Bonus Commands For Windows </h3>
+## Bonus Commands For Windows
 
 1. Create a directory
 
-<pre>mkdir YOUR_DIR_NAME</pre>
+```bash
+mkdir YOUR_DIR_NAME
+```
 
 2. List of folder and files in a directory.
 
-<pre>ls YOUR_DIR_NAME</pre>
+```bash
+ls YOUR_DIR_NAME
+```
 
 3. Create an empty file.
 
-<pre>echo YOUR_FILE_NAME</pre>
+```bash
+echo YOUR_FILE_NAME
+```
