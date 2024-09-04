@@ -20,6 +20,7 @@ git -v
 ```
 
 **Output**
+
 ![git version check output](/previews/git_version_check_output.jpg)
 
 ## Last 3 git logs
@@ -28,13 +29,31 @@ git -v
 git log -3
 ```
 
-## Git logs in graphical mode
+**Output**
+
+![git version check output](/previews/git_last_3_logs.jpg)
+
+## git logs in graphical mode
 
 ```bash
 git log --graph
 ```
 
-## Setup Git User Name and Email
+**Output**
+
+![git version check output](/previews/git_log_graph_mode.jpg)
+
+## git logs in oneline mode
+
+```bash
+git log --oneline
+```
+
+**Output**
+
+![git version check output](/previews/git_log_oneline.jpg)
+
+## Setup git user name and email
 
 ```bash
 git config --global user.name "Your Name"
@@ -48,7 +67,7 @@ git config --global user.name
 git config --global user.email
 ```
 
-<h3>Git Push & Pull Commands</h3>
+### Git Push & Pull Commands
 
 ```bash
 git init
@@ -87,7 +106,6 @@ git remote set-url origin "git_remote_repository_url"
 ## Git Branch Commands
 
 ```bash
-
 // List of all branches.
 git branch -a
 
@@ -114,14 +132,14 @@ git log --oneline
 
 - Run the following command. (Check origin name, for mine it's the main)
 
-  ```bash
-  git pull origin main --allow-unrelated-histories
-  ```
+```bash
+git pull origin main --allow-unrelated-histories
+```
 
 - After running this code a popup window will appear. Press 'wq' from keyboard.
 - It's done. Now you can push your code to the remote repository.
 
-<h3>Bonus Commands For Mac </h3>
+### Bonus Commands For Mac
 
 1. Create a new directory
 
