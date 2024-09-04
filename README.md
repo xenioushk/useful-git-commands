@@ -1,25 +1,34 @@
-# Useful & Frequently Userd git Commands
+# Useful & Frequently Used git Commands
 
 This documentation provides a quick setup process of Git and a few useful commands.
 
-## Git Setup
+## Git application setup
 
 - Download git application from https://git-scm.com
-- install it on your computer.
-- Open the terminal(Mac) or Poweshell (Windows).
+- Install it on your computer.
+- Open the terminal (Mac) or Poweshell (Windows).
 - Once done, run the following command to check the git version.
 
 ```bash
 git --version
 ```
 
-## Last 3 Git Logs
+or
+
+```bash
+git -v
+```
+
+**Output**
+![git version check output](/previews/git_version_check_output.jpg)
+
+## Last 3 git logs
 
 ```bash
 git log -3
 ```
 
-## Git Logs in Graphical Mode
+## Git logs in graphical mode
 
 ```bash
 git log --graph
