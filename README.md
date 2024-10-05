@@ -23,36 +23,6 @@ git -v
 
 ![git version check output](/previews/git_version_check_output.jpg)
 
-## Last 3 git logs
-
-```bash
-git log -3
-```
-
-**Output**
-
-![git version check output](/previews/git_last_3_logs.jpg)
-
-## git logs in graphical mode
-
-```bash
-git log --graph
-```
-
-**Output**
-
-![git version check output](/previews/git_log_graph_mode.jpg)
-
-## git logs in oneline mode
-
-```bash
-git log --oneline
-```
-
-**Output**
-
-![git version check output](/previews/git_log_oneline.jpg)
-
 ## Setup git user name and email
 
 ```bash
@@ -67,12 +37,21 @@ git config --global user.name
 git config --global user.email
 ```
 
-### Git Push & Pull Commands
+### Initalize a git repository
 
 ```bash
 git init
+```
 
+### Check git status
+
+```bash
 git status
+```
+
+### git push & pull commands
+
+```bash
 
 git add -A
 
@@ -103,7 +82,7 @@ git remote -v
 git remote set-url origin "git_remote_repository_url"
 ```
 
-## Git Branch Commands
+## git branch commands
 
 ```bash
 // List of all branches.
@@ -124,9 +103,104 @@ git checkout "branch_name"
 // merge a branch.
 git merge "branch_name"
 
-// Check branch logs
+```
+
+## git tag commands.
+
+Using git tag commands you can easiliy mark stable version of a project. It creates an image of your git repository. To tag a branch, you need to checkout a stable branch. e.g `main`
+
+```bash
+git checkout branch "main"
+git tag v1.0
+```
+
+### Add message to the tag
+
+```bash
+git tag -a v1.0 -m "this is a stable 1.0 version of my project"
+```
+
+### Show all the tags
+
+```bash
+git tag
+```
+
+### Push a tag
+
+```bash
+git push origin v1.0
+```
+
+### Push multiple tag
+
+```bash
+git push origin v1.0 v1.1
+```
+
+### Push all tags
+
+```bash
+git push --tags
+```
+
+### Delete a tag (local)
+
+```bash
+git tag -d v1.0
+```
+
+### Delete multiple tag (local)
+
+```bash
+git tag -d v1.0 v1.1
+```
+
+### Delete a tag (remote)
+
+```bash
+git push origin -d v1.0
+```
+
+## git commit log
+
+Using the following commands, you can check all previous commits hash, commits date, author.
+
+### Check all logs
+
+```bash
+git log
+```
+
+### Last 3 git logs
+
+```bash
+git log -3
+```
+
+**Output**
+
+![git version check output](/previews/git_last_3_logs.jpg)
+
+## git logs in graphical mode
+
+```bash
+git log --graph
+```
+
+**Output**
+
+![git version check output](/previews/git_log_graph_mode.jpg)
+
+## git logs in oneline mode
+
+```bash
 git log --oneline
 ```
+
+**Output**
+
+![git version check output](/previews/git_log_oneline.jpg)
 
 ## Fix fatal: refusing to merge unrelated histories issue
 
