@@ -213,6 +213,14 @@ git pull origin main --allow-unrelated-histories
 - After running this code a popup window will appear. Press 'wq' from keyboard.
 - It's done. Now you can push your code to the remote repository.
 
+## Update last git commit message.
+
+If you accidentally added a Git commit message or would like to update the last Git commit message, then use the following command:
+
+```bash
+git commit --amend -m "Updated commit message"
+```
+
 ### Bonus Commands For Mac
 
 1. Create a new directory
