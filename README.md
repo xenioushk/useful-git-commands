@@ -88,6 +88,9 @@ git remote set-url origin "git_remote_repository_url"
 // List of all branches.
 git branch -a
 
+// Show current branch.
+git branch --show-current
+
 // Create a new branch and switch to that branch
 git checkout -b "new_branch_name"
 
