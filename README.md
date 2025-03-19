@@ -216,6 +216,12 @@ git pull origin main --allow-unrelated-histories
 - After running this code a popup window will appear. Press 'wq' from keyboard.
 - It's done. Now you can push your code to the remote repository.
 
+## Remove a file from git tracking
+
+```bash
+git rm -r --cached 'FOLDER_NAME'
+```
+
 ## Update last git commit message.
 
 If you accidentally added a Git commit message or would like to update the last Git commit message, then use the following command:
