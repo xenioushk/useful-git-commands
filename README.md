@@ -82,33 +82,57 @@ git remote -v
 git remote set-url origin "git_remote_repository_url"
 ```
 
-## git branch commands
+## ✅ Git branch commands
+
+1. List of all branches.
 
 ```bash
-// List of all branches.
 git branch -a
-
-// Show current branch.
-git branch --show-current
-
-// Create a new branch and switch to that branch
-git checkout -b "new_branch_name"
-
-//Rename current branch.
-git branch -m "new_renamed_branch_name"
-
-// delete a branch.
-git branch -d "deleted_branch_name"
-
-//switch to a branch.
-git checkout "branch_name"
-
-// merge a branch.
-git merge "branch_name"
-
 ```
 
-## git tag commands.
+2. Show current branch.
+
+```bash
+git branch --show-current
+```
+
+3. Create a new branch and switch to that branch
+
+```bash
+git checkout -b "new_branch_name"
+```
+
+4. Rename current branch.
+
+```bash
+git branch -m "new_renamed_branch_name"
+```
+
+5. Delete a branch. (locally)
+
+```bash
+git branch -d "deleted_branch_name"
+```
+
+6. Delete a branch. (remote)
+
+```bash
+git push origin -d "<BRANCH_NAME>"
+```
+
+7. Switch to a branch.
+
+```bash
+git checkout "branch_name"
+```
+
+8. Merge a branch.
+
+```bash
+git merge "branch_name"
+```
+
+## ✅ Git tag commands.
 
 Using git tag commands you can easiliy mark stable version of a project. It creates an image of your git repository. To tag a branch, you need to checkout a stable branch. e.g `main`
 
@@ -165,7 +189,7 @@ git tag -d v1.0 v1.1
 git push origin -d v1.0
 ```
 
-## git commit log
+## ✅ Git commit log
 
 Using the following commands, you can check all previous commits hash, commits date, author.
 
@@ -216,7 +240,7 @@ git pull origin main --allow-unrelated-histories
 - After running this code a popup window will appear. Press 'wq' from keyboard.
 - It's done. Now you can push your code to the remote repository.
 
-## Remove a file from git tracking
+## Remove a file/folder from git tracking
 
 ```bash
 git rm -r --cached 'FOLDER_NAME'
