@@ -296,4 +296,6 @@ echo YOUR_FILE_NAME
 
 ## Acknowledgement
 
+- Md Mahbub Alam Khan
+
 - [bluewindlab.net](https://bluewindlab.net)
