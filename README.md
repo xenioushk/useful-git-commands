@@ -2,7 +2,7 @@
 
 This documentation provides a quick setup process of Git and a few useful commands.
 
-## Git application setup
+## ✅ Git application setup
 
 - Download git application from https://git-scm.com
 - Install it on your computer.
@@ -23,7 +23,7 @@ git -v
 
 ![git version check output](/previews/git_version_check_output.jpg)
 
-## Setup git user name and email
+## ✅ Setup git user name and email
 
 ```bash
 git config --global user.name "Your Name"
