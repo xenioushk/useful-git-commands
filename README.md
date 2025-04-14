@@ -19,37 +19,50 @@ or
 git -v
 ```
 
-**Output**
+**👉 Output**
 
 ![git version check output](/previews/git_version_check_output.jpg)
 
 ## ✅ Setup git user name and email
+
+The following commands allow you to set username and email address globally. 🤗
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "Your Email"
 ```
 
-### Validate user information
+You can also set specific username and email address for your current project. 💪
+
+```bash
+git config user.name "Your Name"
+git config user.email "Your Email"
+```
+
+### 👉 Validate/Check user information
 
 ```bash
 git config --global user.name
 git config --global user.email
 ```
 
-### Initalize a git repository
+### 👉 Initalize a git repository
+
+The following command allows you to initialize a fresh local git repository to your project.
 
 ```bash
 git init
 ```
 
-### Check git status
+### 👉 Check git status
+
+The following command will display the current status of the added/updated/deleted files.
 
 ```bash
 git status
 ```
 
-### git push & pull commands
+### 👉 git push & pull commands
 
 ```bash
 
