@@ -86,6 +86,10 @@ git pull origin main
 
 git clone "git_remote_repository_url"
 
+// Clone a specific branch from a remote repository
+// -b means, Gitll will check out the staging branch right after cloning.
+git clone -b "staging" "git_remote_repository_url"
+
 git reset "index.html"
 
 // Check current origin
